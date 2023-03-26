@@ -1,0 +1,45 @@
+@import '../../index.scss';
+
+.featured-projects {
+    margin-top: 10em;
+    margin-bottom: 10em;
+
+    .section-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 44px;
+        
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3.2em;
+        margin-bottom: 44px;
+    }
+
+    .view-more {
+        width: 100%;
+        text-align: center;
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+
+            img {
+                margin-left: 24px;
+                height: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .featured-projects {
+        .projects-grid {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 4.4em;
+        }
+    }
+}

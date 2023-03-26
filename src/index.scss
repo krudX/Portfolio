@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Clash Display';
+  src: url('./assets/fonts/ClashDisplay-Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('./assets/fonts/ClashDisplay-Medium.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('./assets/fonts/Urbanist-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('./assets/fonts/Urbanist-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('./assets/fonts/Urbanist-SemiBold.ttf');
+  font-weight: 600;
+}
+
+// Fonts
+$font-body: 'Urbanist', sans-serif;
+$font-heading: 'Clash Display', sans-serif;
+
+// Colors
+$primary-white: #dddddd;
+$primary-black: #010101;
+$primary-accent: #7462E5;
+$primary-gray: #2d2d2d;
+$secondary-gray: #545454;
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: $primary-black;
+  background-color: $primary-white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $primary-black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  // background: $primary-gray;
+  border: 1px solid $primary-gray;
+  border-radius: 100em;
+}
+
+/* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: $primary-gray;
+// }
+
+body {
+  background-color: $primary-black;
+  color: $primary-white;
+  font-family: $font-body;
+  font-size: 10px;
+  min-height: 200vh;
+}
+
+.container {
+  margin-left: 32px;
+  margin-right: 32px;
+  z-index: 2;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 12px 32px;
+  border: 1px solid $secondary-gray;
+  border-radius: 100em;
+  font-size: clamp(1.4em, 2vw, 1.6em);
+  font-weight: 400;
+  color: $primary-white;
+  transition: all 150ms ease;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  &.button-fill {
+    background-color: $primary-white;
+    color: $primary-black;
+    border: none;
+
+  }
+
+  &.button-outline {
+    
+    &:hover {
+      border-color: $primary-white;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

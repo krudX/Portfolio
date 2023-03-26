@@ -1,0 +1,67 @@
+@import '../../index.scss';
+
+.project-card {
+
+    &:hover {
+        .project-image {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .project-image {
+        height: 500px;
+        background-color: #DED9FF;
+        border-radius: 2.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 150ms ease;
+
+        img {
+            height: 75%;
+            object-fit: contain;
+            object-position: center;
+            transition: transform 150ms ease;
+
+            &.logo {
+                height: 50%;
+            }
+        }
+
+    }
+
+    .project-title {
+        font-family: $font-heading;
+        font-size: clamp(2em, 3vw, 2.4em);
+        font-weight: 500;
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+
+    .service-type {
+
+        .service-item {
+            font-size: clamp(1.3em, 2vw, 1.6em);
+            padding: 6px 16px;
+            margin-right: 8px;
+            border: 1px solid $primary-gray;
+            border-radius: 100em;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        .project-image {
+            width: 100%;
+            height: 300px;
+            // aspect-ratio: 1/1;
+        }
+
+        .project-title {
+            padding-top: 24px;
+        }
+    }
+}

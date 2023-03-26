@@ -1,0 +1,71 @@
+@import '../../index.scss';
+
+.services {
+    margin-top: 10em;
+    margin-bottom: 10em;
+
+    .section-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 44px;
+
+        .slider-navigation {
+            display: flex;
+            align-items: center;
+            
+            .nav-arrow {
+                height: clamp(4em, 5vw, 5em);
+                aspect-ratio: 1/1;
+                background-color: $primary-white;
+                border-radius: 100em;
+                margin-left: 8px;
+                display: grid;
+                place-items: center;
+                cursor: pointer;
+
+                img  {
+                    height: clamp(1.8em, 3vw, 2.2em);
+                }
+            }
+        }
+    }
+
+    .services-carousel {
+        // overflow: visible;
+
+        .swiper-slide {
+            background-color: $primary-white;
+            color: $primary-gray;
+            overflow: hidden;
+            border-radius: clamp(1.6em, 3vw, 2.5em);
+            
+            .slide-content  {
+                height: 420px;
+                padding: clamp(2em, 4vw, 3.2em);
+                padding-top: 96px;
+
+                .service-icon {
+                    text-align: left;
+
+                    img {
+                        height: clamp(5em, 7vw, 6.4em);
+                    }
+                }
+
+                .service-title {
+                    font-family: $font-heading;
+                    font-size: clamp(1.8em, 3vw, 2.4em);
+                    font-weight: 500;
+                    padding-top: 32px;
+                    padding-bottom: 16px;
+                }
+
+                .service-description {
+                    font-size: 1.6em;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

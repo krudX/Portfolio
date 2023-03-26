@@ -1,0 +1,24 @@
+@import '../../index.scss';
+
+.service-card {
+    .service-icon {
+        text-align: left;
+
+        img {
+            height: clamp(5em, 7vw, 6.4em);
+        }
+    }
+
+    .service-title {
+        font-family: $font-heading;
+        font-size: clamp(1.8em, 3vw, 2.4em);
+        font-weight: 500;
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+
+    .service-description {
+        font-size: 1.6em;
+        font-weight: 400;
+    }
+}
