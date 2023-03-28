@@ -1,7 +1,7 @@
 import { Fragment, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { services } from "../../data";
-import ServiceCard from "../../components/ServiceCard/service-card.components";
+import ServiceCard from "../ServiceCard/serviceCard.components";
 
 import '../Services/services.styles.scss';
 

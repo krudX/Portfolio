@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import '../ServiceCard/service-card.styles.scss';
+import '../ServiceCard/serviceCard.styles.scss';
 
 const ServiceCard = (props) => {
     return (

@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import '../FeaturedProjects/featured-projects.styles.scss';
-import ProjectCard from "../ProjectCard/project-card.component";
+import '../FeaturedProjects/featuredProjects.styles.scss';
+import ProjectCard from "../ProjectCard/projectCard.component";
 import { projects } from "../../data";
 
 const FeaturedProjects = () => {

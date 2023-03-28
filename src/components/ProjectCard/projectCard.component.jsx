@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import '../ProjectCard/project-card.styles.scss';
+import '../ProjectCard/projectCard.styles.scss';
 
 const ProjectCard = (props) => {
 
