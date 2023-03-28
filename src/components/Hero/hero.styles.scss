@@ -15,7 +15,7 @@
 
         .title {
             margin-top: 10px;
-            font-size: clamp(3.4em, 6.4vw, 9.6em);
+            font-size: clamp(4.4em, 6.4vw, 9.6em);
             font-family: $font-heading;
         }
 
@@ -23,7 +23,7 @@
             margin-top: 50px;
 
             .button {
-                margin-right: 20px;
+                margin-right: 10px;
                 display: inline-block;
             }
         }

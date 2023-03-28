@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import '../home/home.styles.scss';
 import Hero from "../../components/Hero/hero.component";
 import Services from "../../components/Services/services.component";
@@ -7,7 +7,10 @@ import FeaturedProjects from '../../components/FeaturedProjects/featured-project
 
 const Home = () => {
 
-    
+    useEffect(() => {
+        document.title = "Portfolio | Prathamesh Bankar";  
+    }, []);
+   
 
     return (
         <Fragment>
