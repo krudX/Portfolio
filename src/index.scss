@@ -11,25 +11,25 @@
 }
 
 @font-face {
-  font-family: 'Urbanist';
-  src: url('./assets/fonts/Urbanist-Regular.ttf');
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Regular.otf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Urbanist';
-  src: url('./assets/fonts/Urbanist-Medium.ttf');
+  src: url('./assets/fonts/Satoshi-Medium.otf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Urbanist';
-  src: url('./assets/fonts/Urbanist-SemiBold.ttf');
+  src: url('./assets/fonts/Satoshi-Bold.otf');
   font-weight: 600;
 }
 
 // Fonts
-$font-body: 'Urbanist', sans-serif;
+$font-body: 'Satoshi', sans-serif;
 $font-heading: 'Clash Display', sans-serif;
 
 // Colors
@@ -121,11 +121,23 @@ a {
       border-color: $primary-white;
     }
   }
+
+  &.button-alt {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: $primary-gray;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .button-alt {
+    height: 36px !important;
   }
 }

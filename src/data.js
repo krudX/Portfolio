@@ -7,7 +7,7 @@ export const services = [
     {
         'icon': 'https://res.cloudinary.com/krude/image/upload/v1679749959/Portfolio/icon-app_design_eeulmt.svg',
         'title': 'Web & App Design',
-        'description': "A business needs a website or an app to establish an online presence and reach a larger audience. It provides a platform for customers to learn about the business, its products, and services.",
+        'description': "A good website design ensures that users can easily navigate and find what they're looking for on your site. It can enhance the user experience and increase the likelihood of visitors returning to your site in the future.",
     },
     {
         'icon': 'https://res.cloudinary.com/krude/image/upload/v1679766675/Portfolio/icon-logo_design_ddhufp.svg',
@@ -15,9 +15,9 @@ export const services = [
         'description': "A logo is an essential element of a business's branding strategy as it helps create a distinct visual identity for the brand. It serves as a symbol that customers can easily recognize and associate with the business, helping to establish brand awareness and loyalty",
     },
     {
-        'icon': 'https://res.cloudinary.com/krude/image/upload/v1679766674/Portfolio/icon-web_development_hlq8qp.svg',
+        'icon': 'https://res.cloudinary.com/krude/image/upload/v1680709959/Portfolio/icon-website_development_okediq.svg',
         'title': 'Web Development',
-        'description': "I help businesses and individuals establish and grow their online presence by creating professional, user-friendly websites. With a focus on functionality, design, and user experience, I can help you showcase your products, services, and talents to a global audience, increase your credibility, and reach new customers or clients.",
+        'description': "A website is vital for businesses to establish an online presence, reach a wider audience, and showcase their products/services. It helps build brand awareness, create a professional image, and gain customer trust. In today's digital age, having a website is crucial for businesses to stay competitive and succeed in the long run.",
     },
     {
         'icon': 'https://res.cloudinary.com/krude/image/upload/v1679766674/Portfolio/icon-ux_consulting_q6afdk.svg',

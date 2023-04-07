@@ -1,15 +1,24 @@
 @import '../../index.scss';
 
 .contact {
+    margin-top: 10em;
+    margin-bottom: 10em;
     
     .section-content {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding: 5em 0;
+        padding-top: 5em;
 
         .section-description {
-            font-size: clamp(1.8em, 6vw, 2em);
-            grid-column-start: 1;
+            font-size: clamp(1.6em, 2vw, 2em);
+            padding-bottom: 50px;
+            width: min(50vw, 100%);
+        }
+
+        .button {
+            // float: right;
         }
     }
+}
+
+@media (max-width: 480px) {
+
 }

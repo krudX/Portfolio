@@ -1,12 +1,11 @@
-import { Fragment, useRef } from 'react';
+import { Fragment } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
+import Footer from './routes/footer/footer.component';
 import './App.css';
 
 function App() {
-
-  const containerRef = useRef(null)
 
   return (
     <Fragment>
@@ -15,6 +14,7 @@ function App() {
           <Route index element={<Home />}></Route>
         </Route>
       </Routes>
+      <Footer />
     </Fragment>
   );
 }

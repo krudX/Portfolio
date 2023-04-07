@@ -9,15 +9,15 @@ const Navigation = () => {
                 <div className="container">
                     <div className="logo-container">
                         <div className="logo">
-                            <Link to='/'>bankar.<span className="highlight">design</span></Link>
+                            <Link to='/'>pratham.<span className="highlight">design</span></Link>
                         </div>
                     </div>
                     <div className="menu-container">
                         <ul className="main-menu">
-                            <li className="menu-item"><a href="#" className="active">Projects</a></li>
-                            <li className="menu-item"><a href="#" className="">About</a></li>
-                            <li className="menu-item"><a href="#" className="">Services</a></li>
-                            <li className="menu-item"><a href="#" className="cta">Let's Talk </a></li>
+                            <li className="menu-item"><a href="#projects" className="">Projects</a></li>
+                            <li className="menu-item"><a href="#about" className="">About</a></li>
+                            <li className="menu-item"><a href="#services" className="">Services</a></li>
+                            <li className="menu-item"><a href="#contact" className="cta">Let's Talk </a></li>
                         </ul>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import { projects } from "../../data";
 const FeaturedProjects = () => {
     return (
         <Fragment>
-            <section className="featured-projects">
+            <section className="featured-projects" id="projects">
 
                 <div className="section-name">
                     <div className="index">1</div>

@@ -19,7 +19,7 @@ const Services = () => {
 
     return  (
         <Fragment>
-            <section className="services">
+            <section className="services" id="services">
 
                 <div className="section-name">
                     <div className="index">2</div>
@@ -40,12 +40,12 @@ const Services = () => {
                 <Swiper
                     // slidesPerView={3}
                     spaceBetween={16}
-                    speed={1000}
+                    speed={500}
                     freeMode={true}
                     // loop={true}
                     autoplay={{
                         delay: 5000,
-                        disableOnInteraction: true,
+                        disableOnInteraction: false,
                     }}
                     onBeforeInit={(swiper) => {
                         swiperRef.current = swiper;
