@@ -44,6 +44,7 @@ $secondary-gray: #545454;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -79,7 +80,6 @@ body {
   font-family: $font-body;
   font-size: 10px;
   min-height: 200vh;
-  overflow-x: hidden;
 }
 
 .container {
