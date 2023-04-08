@@ -30,7 +30,7 @@ const Footer = () => {
                                 Look no further! Whether you need a new website designed and built from scratch, a fresh brand identity, or a revamp of your existing online presence, I can help. Contact me today via email or phone and let's start discussing your project requirements. I'm excited to help bring your vision to life!
                             </div>
 
-                            <a href="#" className="button button-fill">Get in Touch</a>
+                            <a href="/#" className="button button-fill">Get in Touch</a>
 
                         </div>
 
@@ -60,8 +60,8 @@ const Footer = () => {
                         <div className="column-body">
 
                             <Link to="https://dribbble.com/pratham_bankar" target="_blank" className="button button-alt button-outline">Dribbble</Link>
-                            <Link to="#" target="_blank" className="button button-alt button-outline">Github</Link>
-                            <Link to="#" target="_blank" className="button button-alt button-outline">Instagram</Link>
+                            <Link to="/#" target="_blank" className="button button-alt button-outline">Github</Link>
+                            <Link to="/#" target="_blank" className="button button-alt button-outline">Instagram</Link>
 
                         </div>
 

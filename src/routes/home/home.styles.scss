@@ -4,8 +4,6 @@ main {
     margin-top: 20vh;
 
     .container{
-        scroll-snap-type: y mandatory;
-        scroll-padding: 100px;
 
         .section-name {
             display: flex;

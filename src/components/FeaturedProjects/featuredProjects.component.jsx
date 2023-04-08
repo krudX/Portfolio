@@ -34,7 +34,7 @@ const FeaturedProjects = () => {
                 </div>
 
                 <div className="view-more">
-                    <a href="#" className="button button-fill">View All <img src="https://res.cloudinary.com/krude/image/upload/v1679767594/Portfolio/icon-arrow_right_whhinc.svg" alt="" /></a>
+                    <a href="/#" className="button button-fill">View All <img src="https://res.cloudinary.com/krude/image/upload/v1679767594/Portfolio/icon-arrow_right_whhinc.svg" alt="" /></a>
                 </div>
 
             </section>
