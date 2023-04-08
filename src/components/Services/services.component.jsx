@@ -1,4 +1,4 @@
-import { Fragment, useRef, useState } from "react";
+import { Fragment, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { services } from "../../data";
 import ServiceCard from "../ServiceCard/serviceCard.components";
@@ -77,9 +77,9 @@ const Services = () => {
                     {
                         services.map(service => {
                             return (
-                                <SwiperSlide>
+                                <SwiperSlide key={service.title}>
                                     <div className="slide-content">
-                                        <ServiceCard key={service.title} icon={service.icon} title={service.title} description={service.description}/>
+                                        <ServiceCard icon={service.icon} title={service.title} description={service.description}/>
                                     </div>
                                 </SwiperSlide>
                             )

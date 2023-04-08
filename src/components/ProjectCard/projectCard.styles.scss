@@ -11,23 +11,22 @@
     }
 
     .project-image {
-        height: 500px;
+        height: 600px;
+        width: 100%;
         background-color: #DED9FF;
         border-radius: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: transform 150ms ease;
+        overflow: hidden;
 
         img {
-            height: 75%;
-            object-fit: contain;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
             object-position: center;
             transition: transform 150ms ease;
-
-            &.logo {
-                height: 50%;
-            }
         }
 
     }

@@ -15,8 +15,8 @@
     .projects-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 3.2em;
-        margin-bottom: 44px;
+        gap: 8em 2em;
+        margin-bottom: 64px;
     }
 
     .view-more {

@@ -1,27 +1,31 @@
-import { Fragment } from "react";
-import { Link, Outlet } from "react-router-dom";
-import '../navigation/navigation.styles.scss';
+import { Fragment, useEffect,useState } from "react";
+import { Outlet } from "react-router-dom";
+import MobileHeader from "../../components/MobileHeader/mobileHeader.component";
+import DesktopHeader from "../../components/DesktopHeader/desktopHeader.component";
 
 const Navigation = () => {
+
+    const [isDesktop, setDesktop] = useState(window.innerWidth > 480);
+
+    const updateMedia = () => {
+        setDesktop(window.innerWidth > 480);
+    };
+
+    useEffect(() => {
+        window.addEventListener("resize", updateMedia);
+        return () => window.removeEventListener("resize", updateMedia);
+    });
+
+
     return (
         <Fragment>
-            <header>
-                <div className="container">
-                    <div className="logo-container">
-                        <div className="logo">
-                            <Link to='/'>pratham.<span className="highlight">design</span></Link>
-                        </div>
-                    </div>
-                    <div className="menu-container">
-                        <ul className="main-menu">
-                            <li className="menu-item"><a href="#projects" className="">Projects</a></li>
-                            <li className="menu-item"><a href="#about" className="">About</a></li>
-                            <li className="menu-item"><a href="#services" className="">Services</a></li>
-                            <li className="menu-item"><a href="#contact" className="cta">Let's Talk </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
+            {
+                isDesktop ? (
+                    <div><DesktopHeader /></div>
+                ) : (
+                    <div><MobileHeader /></div>
+                )
+            }    
             <Outlet />
         </Fragment>
     )

@@ -29,31 +29,31 @@ export const services = [
 export const projects = [
     {
         "title": "Plushy Puffs",
-        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1679850486/Portfolio/plushy_puffs_logo_1-1_zfnnfd.png",
+        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680872507/Portfolio/Plushy_Puffs_Mockup_2_gpckby.png",
         "services": ["Logo Design"],
         "type": "logo"
     },
     {
         "title": "Webalar",
-        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1679812219/Portfolio/project-webalar_sxpydm.png",
+        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680855481/Portfolio/Webalar_mockup_uzjjdh.png",
         "services": ["Web Design", "UI Design"],
         "type": "ui-design"
     },
     {
         "title": "Liquid Sky",
-        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1679850438/Portfolio/project-liquid_sky_itd45v.png",
+        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680868580/Portfolio/liquidsky_mockup_a6l8c1.png",
         "services": ["Web Design", "UI Design"],
         "type": "ui-design"
     },
     {
         "title": "Pure Knowledge Solutions LLC",
-        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1679850379/Portfolio/project-pure_knowledge_a9rqu1.png",
+        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680866721/Portfolio/pks_mockup_asyrqn.png",
         "services": ["Web Design", "UI Design"],
         "type": "ui-design"
     },
     {
         "title": "Anime Mela",
-        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1679844391/Portfolio/project-anime_mela_y1q4or.png",
+        "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680863245/Portfolio/anime-mela_mockup_hcfgrj.png",
         "services": ["Web Design", "UI Design"],
         "type": "ui-design"
     },
