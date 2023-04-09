@@ -58,3 +58,26 @@ export const projects = [
         "type": "ui-design"
     },
 ]
+
+export const socials = [
+     {
+        "smName": "Github",
+        "username": "@krudX",
+        "profileUrl": "https://github.com/krudX"
+     },
+     {
+        "smName": "Dribbble",
+        "username": "@pratham_bankar",
+        "profileUrl": "https://dribbble.com/pratham_bankar"
+     },
+     {
+        "smName": "Linkedin",
+        "username": "@pratham-bankar",
+        "profileUrl": "https://www.linkedin.com/in/pratham-bankar/"
+     },
+    //  {
+    //     "smName": "Instagram",
+    //     "username": "@pratham.bankar",
+    //     "profileUrl": "https://www.instagram.com/pratham.bankar/"
+    //  },
+]

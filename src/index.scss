@@ -78,7 +78,7 @@ body {
   color: $primary-white;
   font-family: $font-body;
   font-size: 10px;
-  min-height: 200vh;
+  // min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
   position: relative;
@@ -96,6 +96,35 @@ ul, ol {
 
 a {
   text-decoration: none;
+}
+
+.link {
+  font-size: clamp(1.5em, 2vw, 1.6em);
+  font-weight: 500;
+  color: $primary-white;
+  position: relative;
+  // overflow: hidden;
+  transition: all 150ms ease;
+  display: block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    background-color: $primary-accent;
+    opacity: 0;
+    transition: all 150ms ease;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+      bottom: -1px;
+    }
+  }
 }
 
 .button {
