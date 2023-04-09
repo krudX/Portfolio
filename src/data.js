@@ -28,30 +28,38 @@ export const services = [
 
 export const projects = [
     {
+        "id": "1",
         "title": "Plushy Puffs",
         "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680872507/Portfolio/Plushy_Puffs_Mockup_2_gpckby.png",
+        "client": "Plushy Puffs",
+        "role": "Lead Designer",
         "services": ["Logo Design"],
-        "type": "logo"
+        "companyOverview": '"Plushy Puffs" is a soft toys business that creates high-quality stuffed animals and other plush toys for children and adults. They approached us seeking a new logo design that would better represent their brand and appeal to their target audience.',
+        "type": "logo",
     },
     {
+        "id": "2",
         "title": "Webalar",
         "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680855481/Portfolio/Webalar_mockup_uzjjdh.png",
         "services": ["Web Design", "UI Design"],
         "type": "ui-design"
     },
     {
+        "id": "3",
         "title": "Liquid Sky",
         "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680868580/Portfolio/liquidsky_mockup_a6l8c1.png",
         "services": ["Web Design", "UI Design"],
         "type": "ui-design"
     },
     {
+        "id": "4",
         "title": "Pure Knowledge Solutions LLC",
         "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680866721/Portfolio/pks_mockup_asyrqn.png",
         "services": ["Web Design", "UI Design"],
         "type": "ui-design"
     },
     {
+        "id": "5",
         "title": "Anime Mela",
         "featuredImage": "https://res.cloudinary.com/krude/image/upload/v1680863245/Portfolio/anime-mela_mockup_hcfgrj.png",
         "services": ["Web Design", "UI Design"],

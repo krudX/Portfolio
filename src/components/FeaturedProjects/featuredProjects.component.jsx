@@ -25,7 +25,7 @@ const FeaturedProjects = () => {
                         projects.map(project => {
                             return (
                                 <div className="grid-item" key={project.title}>
-                                    <ProjectCard key={project.title} title={project.title} featuredImage={project.featuredImage} services={project.services} type={project.type} />
+                                    <ProjectCard key={project.id} id={project.id} title={project.title} featuredImage={project.featuredImage} services={project.services} type={project.type} />
                                 </div>
                             )
                         })

@@ -1,12 +1,13 @@
+import {Link} from 'react-router-dom';
 import '../ProjectCard/projectCard.styles.scss';
 
 const ProjectCard = (props) => {
 
-    const {title, featuredImage, services, type} = props;
+    const {id, title, featuredImage, services, type} = props;
 
     return (
 
-        <div className="project-card" key={title}>
+        <Link to={`/projects/${id}`} className="project-card" key={title}>
             <div className="project-image">
                 <img className={type} src={featuredImage} alt={title} />
             </div>
@@ -20,7 +21,7 @@ const ProjectCard = (props) => {
                     })
                 }
             </div>
-        </div>
+        </Link>
         
     )
 }

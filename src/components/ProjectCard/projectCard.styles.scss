@@ -32,6 +32,7 @@
     }
 
     .project-title {
+        color: $primary-white;
         font-family: $font-heading;
         font-size: clamp(2.2em, 3vw, 2.8em);
         font-weight: 500;
@@ -42,6 +43,7 @@
     .service-type {
 
         .service-item {
+            color: $primary-white;
             font-size: clamp(1.2em, 2vw, 1.6em);
             padding: 5px 16px;
             margin-right: 8px;
