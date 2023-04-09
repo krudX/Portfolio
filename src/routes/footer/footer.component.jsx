@@ -14,7 +14,7 @@ const Footer = () => {
                         Copyright © {new Date().getFullYear()}. Designed & developed by Prathamesh Bankar.
                     </div>
 
-                    <a href="/#" className="link">Terms of Service</a>
+                    <Link to="/" className="link">Terms of Service</Link>
                     
                 </div>
             </footer>

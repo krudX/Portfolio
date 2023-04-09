@@ -4,6 +4,7 @@ import Hero from "../../components/Hero/hero.component";
 import Services from "../../components/Services/services.component";
 import FeaturedProjects from '../../components/FeaturedProjects/featuredProjects.component';
 import ContactUs from "../../components/ContactUs/contactUs.component";
+import About from "../../components/About/about.component";
 
 const Home = () => {
 
@@ -20,6 +21,8 @@ const Home = () => {
                     <Hero />
 
                     <FeaturedProjects />
+
+                    <About />
 
                     <Services />
 

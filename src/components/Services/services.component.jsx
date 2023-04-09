@@ -22,7 +22,7 @@ const Services = () => {
             <section className="services" id="services">
 
                 <div className="section-name">
-                    <div className="index">2</div>
+                    <div className="index">3</div>
                     <div className="subtext">Services & Expertise</div>
                 </div>
 
