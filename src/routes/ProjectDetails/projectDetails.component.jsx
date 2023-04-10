@@ -9,7 +9,7 @@ const ProjectDetails = () => {
     const project = projects.find(proj => proj.id === projectId);
 
     return (
-        <main>
+        <main className="project-section">
             <div className="container">
                 <div className="project-details">
 
