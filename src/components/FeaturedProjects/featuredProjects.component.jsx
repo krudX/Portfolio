@@ -22,19 +22,22 @@ const FeaturedProjects = () => {
                 <div className="projects-grid">
 
                     {
-                        projects.map(project => {
-                            return (
-                                <div className="grid-item" key={project.title}>
-                                    <ProjectCard key={project.id} id={project.id} title={project.title} featuredImage={project.featuredImage} services={project.services} type={project.type} />
-                                </div>
-                            )
+                        projects.map((project, index) => {
+
+                            if (index < 4) {
+                                return (
+                                    <div className="grid-item" key={project.title}>
+                                        <ProjectCard key={project.id} id={project.id} title={project.title} featuredImage={project.featuredImage} services={project.services} type={project.type} />
+                                    </div>
+                                )
+                            }
                         })
                     }
 
                 </div>
 
                 <div className="view-more">
-                    <a href="/#" className="button button-fill">View All <img src="https://res.cloudinary.com/krude/image/upload/v1679767594/Portfolio/icon-arrow_right_whhinc.svg" alt="" /></a>
+                    <a href="/projects" className="button button-fill">View All <img src="https://res.cloudinary.com/krude/image/upload/v1679767594/Portfolio/icon-arrow_right_whhinc.svg" alt="" /></a>
                 </div>
 
             </section>

@@ -1,10 +1,10 @@
 @import '../../index.scss';
 
-.project-main {
-    margin-top: 20vh;
+main {
+    margin-top: 15vh;
     padding-bottom: 10em;
 
-    .container {
+    .pd-container {
         max-width: 1200px;
         margin: 0 auto;
 
@@ -14,68 +14,82 @@
                 font-size: clamp(2.4em, 4vw, 4.4em);
                 font-weight: 500;
                 font-family: $font-heading;
-                margin-bottom: 1.5em;
-            }
-
-            .project-image {
-                width: 100%;
-                height: auto;
-
-                .featured {
-                    width: 100%;
-                    height: auto;
-                    max-height: 70vh;
-                    object-fit: cover;
-                    border-radius: 1em;
-                }
             }
 
             .header-section {
                 padding: 5em 0;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-
-                .project-overview {
-                    flex: 3;
-
-                    .element-title {
-                        font-size: clamp(2em, 3vw, 3.2em);
-                        font-weight: 500;
-                        margin-bottom: 20px;
-                    }
-
-                    .element-desc {
-                        font-size: clamp(1.4em, 2vw, 1.6em);
+    
+                .project-image {
+                    width: 100%;
+                    height: auto;
+    
+                    .featured {
+                        width: 100%;
+                        height: auto;
+                        max-height: 70vh;
+                        object-fit: cover;
+                        border-radius: 1em;
                     }
                 }
+            }
 
-                .other-details {
-                    padding-left: 5em;
-                    flex: 1;
+            .other-details {
+                padding-left: 10em;
+                margin-bottom: 5em;
+                flex: 1;
 
-                    .element {
-                        margin-bottom: 2em;
+                .element {
+                    margin-bottom: 2em;
 
-                        .details-title {
-                            font-size: clamp(1.4em, 2vw, 1.6em);
-                            font-weight: 600;
-                            text-transform: uppercase;
-                            color: $secondary-gray;
-                        }
+                    .details-title {
+                        font-size: clamp(1.4em, 2vw, 1.6em);
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        color: $secondary-gray;
+                    }
 
-                        .details-content {
-                            padding-bottom: 8px;
+                    .details-content {
+                        padding-bottom: 8px;
 
-                            .details-item {
-                                font-size: clamp(1.6em, 2vw, 1.8em);
-                                font-weight: 500;
+                        .details-item {
+                            font-size: clamp(1.6em, 2vw, 1.8em);
+                            font-weight: 500;
+                            // padding-right: 16px;
+
+                            &:not(:last-child)::after {
+                                content: ', ';
                             }
                         }
                     }
                 }
             }
-        }
 
+            .project-overview {
+                margin-bottom: 5em;
+                flex: 2;
+
+                .element-title {
+                    font-size: clamp(2em, 3vw, 2.8em);
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+
+                .element-desc {
+                    font-size: clamp(1.5em, 2vw, 1.6em);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .project-main {
+        .container {
+            .project-details {
+                .other-details {
+                    padding-left: 0;
+                }
+            }
+        }
     }
 }
