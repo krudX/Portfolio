@@ -5,6 +5,7 @@ main {
     .container.page-container {
         max-width: 1200px;
         margin: 0 auto;
+        margin-bottom: 10em;
 
         .text-block {
             font-size: clamp(1.5em, 2vw, 1.6em);

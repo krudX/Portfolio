@@ -1,10 +1,15 @@
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import ProjectCard from "../../components/ProjectCard/projectCard.component";
 import { projects } from "../../data";
 
 import '../Projects/projects.styles.scss';
 
 const Projects = () => {
+
+    useEffect(() => {
+        document.title = "Projects | pratham.design" ;  
+    }, []);
+
     return (
         <main className="projects">
             <div className="container">

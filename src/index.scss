@@ -201,7 +201,7 @@ p {
 
   .page-title {
     font-size: clamp(2.8em, 6vw, 5.6em);
-    text-transform: uppercase;
+    font-family: $font-heading;
     font-weight: 500;
     letter-spacing: 1px;
   }

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { socials } from "../../data";
 import ContactForm from "../../components/ContactForm/contactForm.component";
@@ -5,6 +6,11 @@ import ContactForm from "../../components/ContactForm/contactForm.component";
 import '../Contact/contact.styles.scss';
 
 const Contact = () => {
+
+    useEffect(() => {
+        document.title = "Contact | pratham.design" ;  
+    }, []);
+
     return (
         <main>
 

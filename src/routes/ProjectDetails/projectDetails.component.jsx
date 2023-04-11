@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { projects } from "../../data";
 
@@ -7,6 +8,14 @@ const ProjectDetails = () => {
 
     const {projectId} = useParams()
     const project = projects.find(proj => proj.id === projectId);
+    
+    useEffect(() => {
+        document.title = project.title + " | pratham.design" ;  
+    }, []);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <main>
@@ -17,7 +26,7 @@ const ProjectDetails = () => {
 
                         <div className="project-title">{project.title}</div>
 
-                        <Link to="/projects" className="link">Back to projects</Link>
+                        <Link to="/projects" className="link flex align-center">Back to projects</Link>
 
                     </div>
 

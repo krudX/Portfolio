@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import '../FeaturedProjects/featuredProjects.styles.scss';
 import ProjectCard from "../ProjectCard/projectCard.component";
 import { projects } from "../../data";

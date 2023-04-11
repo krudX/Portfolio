@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import '../Hero/hero.styles.scss';
 
 const Hero = () => {

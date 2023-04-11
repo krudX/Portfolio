@@ -1,6 +1,16 @@
+import { useEffect } from 'react';
 import '../Terms/terms.styles.scss';
 
 const Terms = () => {
+
+    useEffect(() => {
+        document.title = "Terms of Service | pratham.design" ;  
+    }, []);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <main>
             <div className="container page-container">

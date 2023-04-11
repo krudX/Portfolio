@@ -12,7 +12,8 @@ const MobileHeader = () => {
 
                 <div className="logo-container">
                     <div className="logo">
-                        <Link to='/'>pratham.<span className="highlight">design</span></Link>
+                        {/* <Link to='/'>pratham.<span className="highlight">design</span></Link> */}
+                        <Link to='/'><img src="https://res.cloudinary.com/krude/image/upload/v1681239249/Portfolio/pratham_logo_dark_nvp0pk.svg" alt="Prathamesh Bankar Portfolio" /></Link>
                     </div>
                 </div>
 

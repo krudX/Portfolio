@@ -9,7 +9,7 @@ import About from "../../components/About/about.component";
 const Home = () => {
 
     useEffect(() => {
-        document.title = "Portfolio | Prathamesh Bankar";  
+        document.title = "Prathamesh Bankar | Portfolio";  
     }, []);
    
 
