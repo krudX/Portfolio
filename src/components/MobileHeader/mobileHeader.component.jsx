@@ -26,10 +26,10 @@ const MobileHeader = () => {
                     </div>
 
                     <ul className="main-menu">
-                        <li className="menu-item"><a href="#projects" className="">Projects</a></li>
-                        <li className="menu-item"><a href="#about" className="">About</a></li>
-                        <li className="menu-item"><a href="#services" className="">Services</a></li>
-                        <li className="menu-item"><a href="#contact" className="">Contact</a></li>
+                        <li className="menu-item"><a href="/#projects" className="">Projects</a></li>
+                        <li className="menu-item"><a href="/#about" className="">About</a></li>
+                        <li className="menu-item"><a href="/#services" className="">Services</a></li>
+                        <li className="menu-item"><a href="/#contact" className="">Contact</a></li>
                     </ul>
                 </div>
 

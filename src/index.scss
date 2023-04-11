@@ -94,6 +94,10 @@ body {
   padding-left: 44px;
   padding-right: 44px;
   z-index: 2;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 50px 0px 0px 20px;
 }
 
 ul, ol {

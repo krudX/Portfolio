@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="container">
 
                     <div className="copyright">
-                        Copyright © {new Date().getFullYear()}. Designed & developed by Prathamesh Bankar.
+                        Copyright © {new Date().getFullYear()}. Prathamesh Bankar
                     </div>
 
                     <Link to="/" className="link">Terms of Service</Link>

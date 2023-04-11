@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from "react";
+import { useEffect } from "react";
 import '../home/home.styles.scss';
 import Hero from "../../components/Hero/hero.component";
 import Services from "../../components/Services/services.component";
@@ -14,23 +14,21 @@ const Home = () => {
    
 
     return (
-        <Fragment>
-            <main>
-                <div className="container">
+        <main>
+            <div className="container">
 
-                    <Hero />
+                <Hero />
 
-                    <FeaturedProjects />
+                <FeaturedProjects />
 
-                    <About />
+                <About />
 
-                    <Services />
+                <Services />
 
-                    <ContactUs />
+                <ContactUs />
 
-                </div>
-            </main>
-        </Fragment>
+            </div>
+        </main>
     )
 }
 

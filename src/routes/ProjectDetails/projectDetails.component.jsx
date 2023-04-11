@@ -52,7 +52,7 @@ const ProjectDetails = () => {
                                     {
                                         project.services.map((service, index) => {
                                             return (
-                                                <span key={index} className="details-item">{service}</span>
+                                                <span key={service} className="details-item">{service}</span>
                                             )
                                         })
                                     }
