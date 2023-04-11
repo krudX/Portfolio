@@ -40,6 +40,7 @@ $font-heading: 'Clash Display', sans-serif;
 
 // Colors
 $primary-white: #dddddd;
+$secondary-white: #999999;
 $primary-black: #010101;
 $primary-accent: #7462E5;
 $primary-gray: #2d2d2d;
@@ -79,6 +80,10 @@ $secondary-gray: #545454;
 //   background: $primary-gray;
 // }
 
+html {
+  scroll-padding-top: 150px;
+}
+
 body {
   background-color: $primary-black;
   color: $primary-white;
@@ -106,6 +111,10 @@ ul, ol {
 
 a {
   text-decoration: none;
+}
+
+p {
+  color: $secondary-white;
 }
 
 .link {
@@ -173,8 +182,33 @@ a {
   }
 }
 
+.highlight {
+  color: $primary-white;
+  font-weight: 500;
+  text-underline-offset: 4px;
+}
+
 .flex {
   display: flex;
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+
+  .page-title {
+    font-size: clamp(2.8em, 6vw, 5.6em);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .page-content {
+    margin: 5em 0;
+  }
 }
 
 @media (max-width: 480px) {

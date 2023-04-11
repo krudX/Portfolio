@@ -1,5 +1,5 @@
-import {useParams} from "react-router-dom"
-import { projects } from "../../data"
+import { Link, useParams } from "react-router-dom";
+import { projects } from "../../data";
 
 import '../ProjectDetails/projectDetails.styles.scss';
 
@@ -13,7 +13,15 @@ const ProjectDetails = () => {
             <div className="container pd-container">
                 <div className="project-details">
 
-                    <div className="project-title">{project.title}</div>
+                    <div className="flex flex-reverse align-center">
+
+                        <div className="project-title">{project.title}</div>
+
+                        <Link to="/projects" className="link">Back to projects</Link>
+
+                    </div>
+
+                    
 
                     <div className="header-section">
 

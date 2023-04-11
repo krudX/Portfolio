@@ -6,6 +6,7 @@ import Projects from './routes/Projects/projects.component';
 import Contact from './routes/Contact/contact.component';
 import ProjectDetails from './routes/ProjectDetails/projectDetails.component';
 import Footer from './routes/footer/footer.component';
+import Terms from './routes/Terms/terms.component';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/projects' element={<Projects />}></Route>
           <Route path='/projects/:projectId' element={<ProjectDetails />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/terms' element={ <Terms /> }></Route>
         </Route>
       </Routes>
       <Footer />

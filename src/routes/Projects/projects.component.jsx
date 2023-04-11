@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProjectCard from "../../components/ProjectCard/projectCard.component";
 import { projects } from "../../data";
 
@@ -23,6 +24,7 @@ const Projects = () => {
                     }
 
                 </div>
+            
             </div>
         </main>
     )
