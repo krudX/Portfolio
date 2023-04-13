@@ -43,6 +43,7 @@
             img {
                 height: 20px;
             }
+
         }
 
         .isOpen {
@@ -88,7 +89,9 @@
                         transition: all 150ms ease-in-out;
 
                         &:hover {
-                            background-color: $primary-gray;
+                            padding-left: 8px;
+                            text-decoration: underline $primary-accent;
+                            text-underline-offset: 8px;
                         }
 
                     }

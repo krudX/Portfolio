@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import '../MobileHeader/mobileHeader.styles.scss';
 
 const MobileHeader = () => {
 
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+    useEffect(() => {
+        if (isMenuOpen) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          document.body.style.overflow = 'unset';
+        }
+      }, [isMenuOpen]);
 
     return (
         <header className="mobile-header">
@@ -22,6 +30,7 @@ const MobileHeader = () => {
                 </div>
 
                 <div className={(isMenuOpen ? 'mobile-menu isOpen' : 'mobile-menu isClosed')} >
+
                     <div className="menu-close" onClick={() => {setIsMenuOpen(!isMenuOpen)}}>
                         <img src="https://res.cloudinary.com/krude/image/upload/v1680875270/Portfolio/icon-close_uyamqo.svg" alt="menu-close" />
                     </div>

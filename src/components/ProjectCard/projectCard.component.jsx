@@ -10,7 +10,6 @@ const ProjectCard = (props) => {
         <Link to={`/projects/${id}`} className="project-card" key={id}>
             <div className="project-image">
                 <img className={type} src={featuredImage} alt={title} />
-                <div className="visit"><img src="https://res.cloudinary.com/krude/image/upload/v1679767594/Portfolio/icon-arrow_right_whhinc.svg" alt="" /></div>
             </div>
             <div className="project-title">{title}</div>
             <div className="service-type">

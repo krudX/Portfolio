@@ -20,7 +20,6 @@
         justify-content: center;
         transition: transform 150ms ease;
         overflow: hidden;
-        position: relative;
 
         img {
             height: 100%;
@@ -30,24 +29,6 @@
             transition: transform 150ms ease;
         }
 
-        .visit {
-            position: absolute;
-            bottom: 2em;
-            right: 2em;
-            background-color: $primary-white;
-            border-radius: 100em;
-            height: 50px;
-            aspect-ratio: 1/1;
-            display: grid;
-            place-items: center;
-            box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
-
-            img {
-                height: 24px;
-                object-fit: contain;
-                transform: rotate(-45deg);
-            }
-        }
 
     }
 
