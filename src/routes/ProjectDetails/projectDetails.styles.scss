@@ -78,6 +78,16 @@ main {
                 }
             }
         }
+
+        .back {
+            justify-content: flex-end;
+            margin-top: 5em;
+
+            img {
+                margin-right: 16px;
+                height: 20px;
+            }
+        }
     }
 }
 

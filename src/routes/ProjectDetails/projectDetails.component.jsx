@@ -26,8 +26,6 @@ const ProjectDetails = () => {
 
                         <div className="project-title">{project.title}</div>
 
-                        <Link to="/projects" className="link flex align-center">Back to projects</Link>
-
                     </div>
 
                     
@@ -90,6 +88,11 @@ const ProjectDetails = () => {
                         <div className="element-desc">{project.outcome}</div>
                     </div>
 
+                </div>
+
+                <div className="flex align-center back">
+                    <img src="https://res.cloudinary.com/krude/image/upload/v1681578161/Portfolio/icon-arrow_left_light_kvrytf.svg" alt="" />
+                    <Link to="/projects" className="link">Back to projects</Link>
                 </div>
 
             </div>

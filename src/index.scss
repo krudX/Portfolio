@@ -82,6 +82,7 @@ $secondary-gray: #545454;
 
 html {
   scroll-padding-top: 150px;
+  overflow-x: hidden;
 }
 
 body {
@@ -126,6 +127,7 @@ p {
   // overflow: hidden;
   transition: all 150ms ease;
   display: block;
+  max-width: fit-content;
 
   &::after {
     content: '';
