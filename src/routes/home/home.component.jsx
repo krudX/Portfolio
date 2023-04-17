@@ -12,6 +12,9 @@ const Home = () => {
         document.title = "Prathamesh Bankar | Portfolio";  
     }, []);
    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <main>

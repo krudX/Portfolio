@@ -10,6 +10,10 @@ const Projects = () => {
         document.title = "Projects | pratham.design" ;  
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <main className="projects">
             <div className="container">
