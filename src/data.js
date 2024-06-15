@@ -107,8 +107,8 @@ export const socials = [
      },
      {
         "smName": "Linkedin",
-        "username": "@pratham-bankar",
-        "profileUrl": "https://www.linkedin.com/in/pratham-bankar/"
+        "username": "@prathambankar",
+        "profileUrl": "https://www.linkedin.com/in/prathambankar/"
      },
     //  {
     //     "smName": "Instagram",
